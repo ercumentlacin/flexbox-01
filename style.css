@@ -1,0 +1,76 @@
+/* Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%) */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+
+body{
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(0, 0%, 81%);;
+}
+.vioalet{
+    background-color: hsl(263, 55%, 52%);
+}
+.v-d-g-b{
+    background-color: hsl(217, 19%, 35%);
+}
+.v-d-b-b{
+    background-color: hsl(219, 29%, 14%);
+}
+.white{
+    background-color: hsl(0, 0%, 100%);
+}
+.light-gray{
+    color: hsl(0, 0%, 81%);
+}
+.l-g-b{
+    background-color: hsl(210, 46%, 95%);
+}
+.card-head{
+    display: flex;
+    align-items: center;
+}
+
+.col-lg-3.white{
+    color:   hsl(217, 19%, 35%) !important;
+}
+.col-lg-3.white .light-gray{
+    color: hsl(0, 0%, 50%) !important;
+}
+
+.img-fluid{
+    border-radius: 50%;
+    margin-right:.5rem;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    margin-bottom: 0;
+}
+.offset-sm-12{
+    height: 2rem;
+}
+
+.col-lg-8,
+.col-lg-3{
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.container{
+    padding-top: 1rem;
+}
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: 1.1rem;
+}
