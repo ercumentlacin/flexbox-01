@@ -63,14 +63,26 @@ p{
 .col-lg-8,
 .col-lg-3{
     border-radius: .5rem;
-    padding: 1rem;
+    /* padding: 1rem; */
+    margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 .container{
     padding-top: 1rem;
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 h3{
     font-size: 1rem;
 }
 h4{
     font-size: 1.1rem;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.pd-12{
+    padding: 1.2rem;
 }
